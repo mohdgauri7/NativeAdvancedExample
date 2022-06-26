@@ -39,8 +39,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onInitializationComplete(InitializationStatus initializationStatus) {
                 Log.d(TAG, "Google SDK Initialized");
-
-
                 loadAd();
             }
         });
